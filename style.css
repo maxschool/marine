@@ -1,0 +1,101 @@
+body {
+	background: url("img/bg.jpg") no-repeat center center;
+	background-size: cover;
+}
+h1 {
+	font-family: Arial;
+	color: white;
+	font-size: 20px;
+}
+h2 {
+	font-family: Arial;
+	color: white;
+	font-size: 13px;
+}
+#main {
+	 margin: auto;
+	 position: absolute;
+	 top: 0; left: 0; bottom: 0; right: 0;
+	 width: 700px;
+	 height: 400px;
+	 background-color: #ffffff;
+	 background-color: rgba(255,255,255,0.5);
+	 border-radius: 20px;
+	 padding: 20px;
+}
+#left {
+	float: left;
+}
+#right {
+	float: right;
+	width: 400px;
+}
+#pic {
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	border-radius: 200px;
+	-webkit-box-shadow: 0 0 5px 2px #000000;
+	box-shadow: 0 0 5px 2px #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+#up {
+	margin-bottom: 50px;
+	border-bottom: 25px solid #525252;
+
+}
+#down {
+	border-top: 25px solid #525252;
+	margin-top: 50px;
+}
+
+.arrow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	cursor: pointer;
+}
+#kingdom {
+	font-family: Arial;
+	font-size: 30px;
+	font-style: italic;
+}
+#species {
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+#classification p {
+	font-family: Arial;
+	font-size: 13px;
+}
+#theme p {
+	font-family: Arial;
+	font-size: 13px;
+}
+#bibliography {
+	font-family: Arial;
+	font-size: 10px;
+}
+#imgcreds {
+	font-family: Arial;
+	font-size: 10px;
+}
+#footcreds {
+	font-family: Arial;
+	font-size: 10px;
+	bottom: 0;
+	position: absolute;
+}
+.open {
+	transition: 0.5s;
+	opacity: 1;
+}
+.close {
+	transition: 0.5s;
+	opacity: 0;
+}
